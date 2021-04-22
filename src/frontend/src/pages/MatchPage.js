@@ -19,7 +19,7 @@ export const MatchPage = () => {
     };
 
     fetchMatchDetails();
-  }, [year]);
+  }, [year, teamName]);
   return (
     <div className="MatchPage">
       <div>
