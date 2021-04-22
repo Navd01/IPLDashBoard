@@ -33,7 +33,7 @@ export const MatchPage = () => {
       </div>
       <div>
         {matches.map((match) => (
-          <MatchDetailCard teamName={teamName} match={match} />
+          <MatchDetailCard key={match.id} teamName={teamName} match={match} />
         ))}
       </div>
     </div>
