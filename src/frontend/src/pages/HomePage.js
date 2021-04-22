@@ -24,7 +24,7 @@ export const HomePage = () => {
 
       <div className="team-grid">
         {teams.map((team) => (
-          <TeamTile teamName={team.teamName} />
+          <TeamTile key={team.teamName} teamName={team.teamName} />
         ))}
       </div>
     </div>
